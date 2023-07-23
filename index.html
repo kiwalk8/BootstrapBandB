@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -15,9 +15,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
-</body>
 
-</html>
+
+
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
@@ -39,9 +39,9 @@
     </div>
 </nav>
 
-<div id="carouselExample" class="carousel slide">
+<div id="carouselauto" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
-        <div class="carousel-item active">
+      <div class="carousel-item active">
             <img src="img/car1.jpg" class="d-block w-100" alt="coastline">
         </div>
         <div class="carousel-item">
@@ -51,12 +51,49 @@
             <img src="img/car3.jpg" class="d-block w-100" alt="lava">
         </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
     </button>
+
 </div>
+
+<div class="homecards">
+    <div class="card" style="width: 18rem;">
+        <img src="img/card1.jpg" class="card-img-top" alt="lounge">
+        <div class="card-body">
+          <h5 class="card-title">Relax</h5>
+          <p class="card-text">Take the time to relax in the fresh ocean air. Our B&B offers plenty of space to swim, sit and chat, read a book, or take a quick nap!</p>
+          <a href="#" class="btn btn-light">Our Amenities</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="img/card2.jpg" class="card-img-top" alt="eat">
+        <div class="card-body">
+          <h5 class="card-title">Dine</h5>
+          <p class="card-text">With fresh meals served three times a day, no guest goes hungry. Menus are planned and posted in advance, but special accomodations can be made. Check out our most recent menus.</p>
+          <a href="#" class="btn btn-light">Our Menu</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="img/card3.jpg" class="card-img-top" alt="explore">
+        <div class="card-body">
+          <h5 class="card-title">Explore</h5>
+          <p class="card-text">Trails, beaches, bike paths, picnic spots, and more. Adventure out on your own or sign up for a scheudled excursion.</p>
+          <a href="#" class="btn btn-light">Things To Do</a>
+        </div>
+      </div>
+
+</div>
+
+<footer>Kailua Kove Bed and Breakfast &copy;2023</footer>
+
+</body>
+
+</html>
